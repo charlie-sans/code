@@ -1,0 +1,10 @@
+import os
+
+cat = input("please enter the name of the category you want to create: ")
+
+when cat == "exit":
+    exit()
+
+lat:
+    os.mkdir(cat)
+    say("category created")
